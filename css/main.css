@@ -4,3 +4,24 @@ html {
   *, *::before, *::after{
     box-sizing: inherit;
   }
+  .main{
+      background-color: #2C2141;
+      min-width: 100vw;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .card{
+      background-color: #F8F8F8;
+      width: 624px;
+      height: 320px;
+      border-radius: 16px;
+      padding: 32px;
+      display: flex;
+      align-content: space-around;
+  }
+  .card__photo{
+      height: max-content;
+      margin-right: 32px;
+  }
